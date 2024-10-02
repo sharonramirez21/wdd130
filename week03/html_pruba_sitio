@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splash White Water Rafting</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #0099cc; color: white; padding: 20px; text-align: center; }
+        nav { margin: 20px 0; }
+        nav a { margin: 0 15px; color: white; text-decoration: none; }
+        section { padding: 20px; }
+        footer { text-align: center; padding: 10px; background: #333; color: white; position: relative; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Splash White Water Rafting</h1>
+    <nav>
+        <a href="#about">Sobre Nosotros</a>
+        <a href="#tours">Rutas</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>Sobre Nosotros</h2>
+    <p>En Splash White Water Rafting, ofrecemos experiencias inolvidables en aguas bravas, garantizando seguridad y diversión.</p>
+</section>
+
+<section id="tours">
+    <h2>Nuestras Rutas</h2>
+    <p>Descubre nuestros emocionantes tours adaptados a todos los niveles de habilidad. ¡Aventura y naturaleza te esperan!</p>
+</section>
+
+<section id="contact">
+    <h2>Contacto</h2>
+    <p>Para reservas y consultas, contáctanos al correo: info@splashwhitewaterrafting.com</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Splash White Water Rafting. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
