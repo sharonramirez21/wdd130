@@ -4,14 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Splash White Water Rafting</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        header { background: #0099cc; color: white; padding: 20px; text-align: center; }
-        nav { margin: 20px 0; }
-        nav a { margin: 0 15px; color: white; text-decoration: none; }
-        section { padding: 20px; }
-        footer { text-align: center; padding: 10px; background: #333; color: white; position: relative; bottom: 0; width: 100%; }
-    </style>
 </head>
 <body>
 
