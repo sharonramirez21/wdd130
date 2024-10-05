@@ -24,7 +24,7 @@ p {
 body {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px; 
+    padding: 0.5%;
 }
 
 .hero {
@@ -79,3 +79,11 @@ body {
     color: white;
 }
 
+section img {
+    width: 50%;
+}
+
+section p {
+    padding-top: 1px;
+    margin-top: 1%;
+}
