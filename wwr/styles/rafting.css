@@ -20,7 +20,6 @@ p {
 .sociallinks{
     text-decoration: none;
     display: flex;
-    gap: 10%;
 }
 
 body {
