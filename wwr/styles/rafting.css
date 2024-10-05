@@ -1,7 +1,38 @@
-:root{
-    -primary-color: #1B2C6B;  
-    --secondary-color: #1B3172; 
+:root {
+    --main_color:#1B2C6B; 
+    --secundary_color:#1B3172; 
+    --third_color:#4E6EA2; 
+    --fourth_color:#094B97;
+}
 
+html {
+    margin: 0 auto;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Poppins', serif;
+    color: var(--main_color);
+}
+
+p {
+    font-family: 'Open Sans', Serif;
+    color: black;
+    align-self: start;
+}
+
+.sociallinks{
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    display: block;
 }
 
 .hero img {
@@ -10,6 +41,18 @@
     height: auto;
 }
 
-h1 {
-    font-family: 'Poppins' serif;
+.hero h1 {
+    position: absolute;
+}
+
+.hero article {
+    position: absolute;
+}
+
+.hero article img {
+    float: right;
+}
+
+.hero article p {
+    float: left;
 }
