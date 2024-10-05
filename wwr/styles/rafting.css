@@ -43,11 +43,10 @@ body {
 
 .hero h1 {
     position: absolute;
-    width: 50%;
+    width: 100%;
     text-align: center;
     top: 5%;
     white-space: pre;
-    left: 23%;
     background-color: white;
     padding: 0.5%;
 }
