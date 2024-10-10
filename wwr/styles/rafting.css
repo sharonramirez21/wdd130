@@ -140,15 +140,17 @@ header {
 }
 
 .adventure figure {
-    width: 40%;
     margin: 0%;
     padding: 0%;
-    display: inline-flex;
-    padding-left: 3%;
+    justify-content: space-between;
+    display: inline-block;
+    text-align: center;
+    padding-left: 2%;
+    padding-bottom: 2%;
 }
 
 .adventure figure img {
-    padding: 3%;
+    width: 80%;
 }
 
 .adventure h2 {
@@ -159,21 +161,9 @@ header {
     color: white;
 }
 
-.adventure figcaption {
-    margin: 0%;
-    white-space: nowrap;
-    padding-left: 7%;
-}
-
-.adventure figcaption p {
-    display: inline-flex;
-    width: 2%;
-    margin-right: 18.3%;
-}
-
 footer {
     margin: 0%;
-    padding: -1%;
+    padding: 0%;
     display: flex;
     background-color: var(--third_color);
     justify-content: space-between;
