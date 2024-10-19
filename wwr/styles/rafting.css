@@ -216,14 +216,76 @@ footer p {
 .employees {
     display: block;
     width: 100%;
+    padding-bottom: 5%;
 }
 
 .employees h2 {
     text-align: center;
+    text-decoration: underline;
 }
 
 .employees figure {
     margin: 0%;
     padding: 0%;
     display: inline-block;
+    text-align: center;
+    width: 30%;
+    padding-left: 2.5%;
+}
+
+.form {
+    display: block;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    background-color: lightblue;
+    padding-bottom: 5%;
+}
+
+.form h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 3%;
+}
+
+label {
+    position: relative;
+    left: 10%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    position: relative;
+    width: 30%; 
+    padding: 5px;
+    margin-bottom: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    left: 10%;
+}
+
+.form p {
+    position: relative;
+    left: 10%;
+}
+
+input[type="radio"] {
+    position: relative;
+    left: 10%;
+}
+
+input[type="checkbox"]{
+    position: relative;
+    left: 10%;
+}
+
+input[type="submit"]{
+    position: relative;
+    width: 10%;
+    height: 20%;
+    left: 10%;
+    color: white;
+    background-color: var(--third_color);
 }
