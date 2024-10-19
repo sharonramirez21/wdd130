@@ -180,3 +180,50 @@ footer p {
     color: white;
     white-space: nowrap;
 }
+
+
+.contact {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.contact h1 {
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.contact h2, p {
+    padding: 0%;
+    position: relative;
+    top: 40%;
+    left: 15%;
+}
+
+.contact .map iframe {
+    width: 400px; 
+    height: 200px; 
+}
+
+.contact .map {
+    position: absolute;
+    left: 55%;
+    top: 20%;
+}
+
+.employees {
+    display: block;
+    width: 100%;
+}
+
+.employees h2 {
+    text-align: center;
+}
+
+.employees figure {
+    margin: 0%;
+    padding: 0%;
+    display: inline-block;
+}
