@@ -302,6 +302,13 @@ button {
     height: auto;
 }
 
+.decora {
+    background-color: #aecdff;
+    margin: 0.5%;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+}
+
 .hero-text h1 {
     position: relative;
     text-align: center;
@@ -312,6 +319,7 @@ button {
     text-align: center;
     left: 0%;
 }
+
 
 .form_sub {
     width: 30%;
